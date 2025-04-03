@@ -1,4 +1,4 @@
-public class Ingresso{
+public abstract class Ingresso{
 
     protected double valor;
     //String nomeFilme;
@@ -13,8 +13,6 @@ public class Ingresso{
         return;
     }
 
-    public String getValorReal(){
-        return "O valor do ingresso individual é " + valor + " reais.";
-    }
+    public abstract String getValorReal();
     
 }

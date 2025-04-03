@@ -19,7 +19,7 @@ public class App {
 
             switch (option1){
                 case 1 -> {
-                    Ingresso ingressoIndividual = new Ingresso();  
+                    Ingresso ingressoIndividual = new IngressoIndividual();  
                     ingressoIndividual.setValor(30);      
                     System.out.println(ingressoIndividual.getValorReal());
                 }
